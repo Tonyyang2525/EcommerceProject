@@ -1,0 +1,74 @@
+[
+  {
+    "image": "/Images/fluke.avif",
+    "name": "Zoom 5-1/4 Super Fluke",
+    "price": "5.29",
+    "detail": "Soft plastic that mimics a fish, Water melon color way "
+  },
+  {
+    "image": "/Images/senko.avif",
+    "name": "Yamoto Baits 5 Senko",
+    "price": "7.69",
+    "detail": "Soft plastic lure injected with salt to mimic worm like movements"
+  },
+  {
+    "image": "/Images/Crawdad.avif",
+    "name": "Bass Pro Shops XPS CrawDigy Craw",
+    "price": "4.99",
+    "detail": "Brown soft plastic meant to mimic a crawdad, also known as a creature bait"
+  },
+  {
+    "image": "/Images/Chatterbait.avif",
+    "name": "Z-Man The Original ChatterBait",
+    "price": "4.99",
+    "detail": "white hard bait with a skirt on that mimics a small fish that produces flash an vibration"
+  },
+  {
+    "image": "/Images/KVDcrankbait.avif",
+    "name": "Strike King KVD Rattling Square Bill Crankbaits",
+    "price": "7.49",
+    "detail": "Hard bait that mimics a fish surveying over terrain"
+  },
+  {
+    "image": "/Images/SpinnerBait.avif",
+    "name": "SpinnerbaitBerkley Power Blade Tandem Spinnerbait",
+    "price": "4.99",
+    "detail": "Hard bait jig that mimiccs a small school of minnows "
+  },
+  {
+    "image": "/Images/Glidebait.avif",
+    "name": "Bass Pro Shops XPS Swerve Glide Swibait",
+    "price": "19.99",
+    "detail": "This is a realistic look of fish that glides through the water"
+  },
+  {
+    "image": "/Images/SavageGear.avif",
+    "name": "Savage Gear 3D Shine Glide Swimbait",
+    "price": "19.99",
+    "detail": "A realistic look of a fish that glides through the water"
+  },
+  {
+    "image": "/Images/Plopper.avif",
+    "name": "River2Sea Larry Dahlberg Series Rattling Whopper Plopper",
+    "price": "16.99",
+    "detail": "hard bait top water action bait that pops when reeled in"
+  },
+  {
+    "image": "/Images/PinkWorm.avif",
+    "name": "BAss Pro Shops Tournament Series Squirmin Worm 4",
+    "price": "2.97",
+    "detail": "Soft plastic worm that is pink"
+  },
+  {
+    "image": "Images/BerkleyCrank.avif",
+    "name": "Berkley Money Badger Crankbait",
+    "price": "6.38",
+    "detail": "Hard plastic bait that looks likea fish that swims over terrain"
+  },
+  {
+    "image": "/Images/StrikeKingRageHawk.avif",
+    "name": "Strike King Rage Hawk",
+    "price": "7.99",
+    "detail": "Soft plastic that mimics a creature bait thrown to target the bottom of a body of water"
+  }
+]

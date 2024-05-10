@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+}
+.paragraphHome {
+  text-align: center;
+  font-size: 50px;
+  border: solid 12px grey;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10%;
+}
+html {
+  font-family: "Roboto Mono";
+  font-size: 18px;
+}
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("https://cdn-icbip.nitrocdn.com/GJqqjvNteIwexbeufRfOtMHTXLnYXZSL/assets/images/optimized/rev-11a84a7/www.grizzlycoolers.com/wp-content/uploads/2023/05/bass-fishing-1024x683.jpg")
+    no-repeat center/cover;
+}
+title {
+  text-align: center;
+  font: white;
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topNav {
+  overflow: hidden;
+  background-color: #333;
+  text-decoration: none;
+}
+.topNav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px, 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+header h1 {
+  display: flex;
+  text-align: center;
+}
+.page-footer {
+  background-color: black;
+  position: sticky;
+}
+
+/* this styles the class made in script called img*/
+
+#dataDisplay img {
+  max-width: 75%;
+
+  /* min-height: 100px;
+  max-height: 100px; */
+  border-radius: 4px;
+
+  /* border: 1px solid rgba(18, 1, 1, 0.124); */
+}
+
+#dataDisplay p {
+  /* max-width: 300px; */
+  /* background-color: pink; */
+  /* border: 1px solid black; */
+  font-size: 16px;
+}
+
+.image {
+  border: 2px solid black;
+}
+.containerForm {
+  border: solid black;
+  border-radius: 10px;
+  background-color: white;
+  padding: 0px 20px 20px;
+  margin: 80px auto;
+  color: grey;
+  max-width: 800px;
+}
+.containerForm h2 {
+  padding: 40px;
+  margin: 40px;
+}
+.containerForm inputFormTextBox {
+  border: 4px solid black;
+  border-radius: 10px;
+}
+.containerForm h2 {
+  text-align: center;
+}
+
+/* this styles the div img*/
+.imgLogo {
+  width: 100px;
+  height: 100px;
+  border: solid black;
+  border-radius: 50%; /* rounded the logo image*/
+}
+.imageProduct {
+  padding: 15px;
+  margin: 10px;
+  border-radius: 50%; /* rounded the logo image*/
+  border: solid black;
+}
+.price {
+  text-align: left;
+  height: 50px;
+}
+
+footer {
+  background-color: #111;
+  padding-top: 0px;
+
+  margin: 0%;
+  display: legacy;
+}
+
+.footerContainer {
+  width: 100% padding 70px 30px 20px;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.socialIcons a:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+
+.footerBottom {
+  background-color: #000;
+  padding: 0.01px;
+  text-align: center;
+}
+
+.footerBottom {
+  color: white;
+}
+/*footer*/
+footer {
+  background-color: #111;
+  padding-top: 0px;
+
+  margin: 0%;
+  display: legacy;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+
+.socialIcons a:hover {
+  background-color: #111;
+  transition: 0.5s;
+}
+
+.socialIcons a:hover {
+  color: white;
+  transition: 0.5s;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+
+.footerBottom {
+  background-color: #000;
+  padding: 0.01px;
+  text-align: center;
+}
+
+.footerBottom {
+  color: white;
+}
+/* removes the logo when less than the dimension for laptop*/
+@media screen and (min-width: 320px) and (max-width: 850px) {
+  .nav-wrapper img {
+    display: none;
+  }
+  .detail {
+    display: none;
+  }
+  #dataDisplay,
+  .row {
+    display: none;
+  }
+  .imageProduct {
+    width: 100%;
+    height: auto;
+  }
+}

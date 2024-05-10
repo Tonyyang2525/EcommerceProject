@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet"
+    />
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="/materialize/css/materialize.min.css"
+      media="screen,projection"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+  
+    <title>Document</title>
+  </head>
+  <body>
+    <div class ="contactPageBackground">
+      <nav>
+        <div class="nav-wrapper black">
+          <img src="/Images/logo-png.png"  class= "imgLogo" />
+          <a href="" class="brand-logo center">Dynamic Fishing</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+            ><i class="material-icons">menu</i></a
+          >
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">About</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="contact.html">Conact US</a></li>
+          </ul>
+        </div>
+      </nav>
+  <div class="containerForm">
+    <h2 style="color: black;">Contact US</h2>
+  <form action="action_page.php"> <!-- this pushes the submit to a page afterwards-->
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." >
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your Email..">
+    
+    <label for="phone">Enter your phone number:</label>
+    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+
+
+    <label for="subject" style="display:flex; margin-top:1em;" >Subject</label>
+    <textarea id="subject" name="subject" placeholder="Enter Text here..." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+<footer>
+  <div class="footerContainer">
+    <div class="socialIcons">
+      <a href="https://www.facebook.com/tony.yang.712/"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/_tony.yang_/"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://twitter.com/?lang=en"><i class="fa-brands fa-twitter"></i></a>
+    </div>
+    <div class="footerNav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="footerBottom">
+      <p>Copyright &copy; 2023: designed by <span class="designer"> Tony</p>
+    </div>
+  </div>
+</footer>
+</div>
+</body>
+</html>

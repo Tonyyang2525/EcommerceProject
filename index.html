@@ -37,9 +37,7 @@
             height="100px "
           />
           <a href="" class="brand-logo center">Dynamic Fishing</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
-            ><i class="material-icons">menu</i></a
-          >
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger" onclick ="hamburgerMenu() "><i class="material-icons">menu</i></a>
           <ul class="right hide-on-med-and-down">
             <li><a href="index.html">About</a></li>
             <li><a href="shop.html">Shop</a></li>
@@ -47,6 +45,11 @@
           </ul>
         </div>
       </nav>
+      <ul class="hamburgerNavMenu" id="mobile-demo">
+        <li><a href="index.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact US</a></li>
+      </ul>
     </header>
     <section id="hero">
       <div class="heroContainer"></div>
@@ -75,11 +78,8 @@
         </div>
       </div>
     </footer>
+    <script src ="script.js"></script>
+    <script type="text/javascript" src="/materialize/js/materialize.js"></script>
+    <script type="text/javascript" src="/materialize/js/materialize.min.js"></script>
   </body>
 </html>
-<footer>
-  
-      <p>Copyright &copy; 2023; designed by <span class="designer"> Tony</p>
-    </div>
-  </div>
-</footer>

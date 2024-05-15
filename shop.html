@@ -40,7 +40,7 @@
             height="100px "
           />
           <a href="" class="brand-logo center">Dynamic Fishing</a>
-          <a href="#" data-target="mobile-demo" class="sidenav-trigger"
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger" onclick ="hamburgerMenu()"
             ><i class="material-icons">menu</i></a
           >
           <ul class="right hide-on-med-and-down">
@@ -50,9 +50,15 @@
           </ul>
         </div>
       </nav>
+      <ul class="hamburgerNavMenu" id="mobile-demo">
+        <li><a href="index.html">About</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="contact.html">Contact US</a></li>
+      </ul>
     </header>
-
-    <div id="dataDisplay" class="container"></div>
+    
+    <h1>Shop</h1>
+    <div id="dataDisplay" class ="container"></div>
 
     <footer>
       <div class="footerContainer">
@@ -78,5 +84,6 @@
       src="/materialize/js/materialize.js"
     ></script>
     <script src="script.js"></script>
+
   </body>
 </html>

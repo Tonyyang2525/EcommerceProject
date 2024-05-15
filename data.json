@@ -1,72 +1,72 @@
 [
   {
-    "image": "/images/fluke.avif",
+    "image": "/Images/fluke.avif",
     "name": "Zoom 5-1/4 Super Fluke",
     "description": "Soft plastic that contains realistic bait fish profile with water melon color way ",
     "price": 5.29
   },
   {
-    "image": "/images/senko.avif",
+    "image": "/Images/senko.avif",
     "name": "Yamoto Bait1s 5 Senko",
     "description": "Soft plastic lure injected with salt to mimic worm like movements.",
     "price": 7.69
   },
   {
-    "image": "/images/Crawdad.avif",
+    "image": "/Images/Crawdad.avif",
     "name": "XPS CrawDigy Craw",
     "description": "Brown soft plastic meant to mimic a crawdad, also known as a creature bait",
     "price": 4.99
   },
   {
-    "image": "/images/Chatterbait.avif",
+    "image": "/Images/Chatterbait.avif",
     "name": "Z-Man ChatterBait",
     "description": "white hard bait with a skirt on that mimics a small fish that produces flash an vibration",
     "price": 4.99
   },
   {
-    "image": "/images/KVDcrankbait.avif",
+    "image": "/Images/KVDcrankbait.avif",
     "name": "Strike King KVD Rattling Square Bill Crankbaits",
     "description": "Hard bait that mimics a fish surveying over terrain",
     "price": 7.49
   },
   {
-    "image": "/images/SpinnerBait.avif",
+    "image": "/Images/SpinnerBait.avif",
     "name": "Spinnerbait Berkley Spinnerbait",
     "description": "Hard bait jig that mimiccs a small school of minnows",
     "price": 4.99
   },
   {
-    "image": "/images/Glidebait.avif",
+    "image": "/Images/Glidebait.avif",
     "name": "Bass Pro Shops XPS Swerve Glide Swibait",
     "description": "This is a realistic look of fish that glides through the water",
     "price": 19.99
   },
   {
-    "image": "/images/SavageGear.avif",
+    "image": "/Images/SavageGear.avif",
     "name": "Savage Gear 3D Shine Glide Swimbait",
     "description": "A realistic look of a fish that glides through the water",
     "price": 19.99
   },
   {
-    "image": "/images/Plopper.avif",
+    "image": "/Images/Plopper.avif",
     "name": "River2Sea Whopper Plopper",
     "description": "hard bait top water action bait that pops when reeled in",
     "price": 16.99
   },
   {
-    "image": "/images/PinkWorm.avif",
+    "image": "/Images/PinkWorm.avif",
     "name": "Tournament Series Squirmin Worm 4",
     "description": "Pink Soft plastic worm with distinctive Squirmin'tail",
     "price": 2.97
   },
   {
-    "image": "images/BerkleyCrank.avif",
+    "image": "Images/BerkleyCrank.avif",
     "name": "Berkley Money Badger Crankbait",
     "description": "Hard plastic bait that looks likea fish that swims over terrain",
     "price": 6.38
   },
   {
-    "image": "/images/StrikeKingRageHawk.avif",
+    "image": "/Images/StrikeKingRageHawk.avif",
     "name": "Strike King Rage Hawk",
     "description": "Soft plastic that mimics a creature bait thrown to target the bottom of a body of water",
     "price": 7.99
